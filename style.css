@@ -1,0 +1,20 @@
+#container-soal {
+    margin-top: 10vh;
+}
+
+.pilihan {
+    text-align: justify;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+ul#pilihanJawaban.dark .list-group-item {
+    background-color: #6C757D;
+    color: white;
+}
+
+/* #nilai {
+    font-size: 5em;
+} */

@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Bootstrap Icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <title>CBT</title>
+    </head>
+
+    <body>
+        <div class="container d-none" id="container-soal">
+            <div class="row">
+                <div class="col">
+
+                    <!-- Navigasi Soal -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal"
+                                        data-bs-target="#navSoal">
+                                        Daftar Soal
+                                    </button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-outline-dark mb-3 float-end" id="mode"
+                                        data-mode="light">Light
+                                        <i class="bi bi-brightness-high"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Akhir Navigasi Soal -->
+
+                    <div class="card">
+                        <div class="card-body">
+
+                            <!-- Soal -->
+                            <h5 class="card-title" id="nomorSoal"></h5>
+                            <p class="card-text" id="teksSoal"></p>
+                            <!-- Akhir Soal -->
+
+                            <!-- Pilihan Jawaban -->
+                            <ul class="list-group list-group-flush row" id="pilihanJawaban">
+                                <hr>
+                                <li class="list-group-item" id="pilihanA">
+                                    <div class="row align-items-center pilihan">
+                                        <div class="col-sm-1 col-2">
+                                            <button class="btn btn-outline-primary btn-sm">A</button>
+                                        </div>
+                                        <div class="col-sm-11 col-10">
+                                            <span class="user-select-none"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item" id="pilihanB">
+                                    <div class="row align-items-center pilihan">
+                                        <div class="col-sm-1 col-2">
+                                            <button class="btn btn-outline-primary btn-sm">B</button>
+                                        </div>
+                                        <div class="col-sm-11 col-10">
+                                            <span class="user-select-none"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item" id="pilihanC">
+                                    <div class="row align-items-center pilihan">
+                                        <div class="col-sm-1 col-2">
+                                            <button class="btn btn-outline-primary btn-sm">C</button>
+                                        </div>
+                                        <div class="col-sm-11 col-10">
+                                            <span class="user-select-none"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item" id="pilihanD">
+                                    <div class="row align-items-center pilihan">
+                                        <div class="col-sm-1 col-2">
+                                            <button class="btn btn-outline-primary btn-sm">D</button>
+                                        </div>
+                                        <div class="col-sm-11 col-10">
+                                            <span class="user-select-none"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item" id="pilihanE">
+                                    <div class="row align-items-center pilihan">
+                                        <div class="col-sm-1 col-2">
+                                            <button class="btn btn-outline-primary btn-sm">E</button>
+                                        </div>
+                                        <div class="col-sm-11 col-10">
+                                            <span class="user-select-none"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Akhir PIlihan Jawaban -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none pt-5" id="container-nilai">
+            <div class="row justify-content-center pt-5">
+                <div class="col-4 col-lg-3 p-lg-4 p-3 rounded text-white border-success text-center">
+                    <h1 id="nilai" class="fs-1"></h1>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-6 col-sm-4 text-center">
+                    <div class="p-2 rounded bg-success text-white fw-bold" id="soal-benar"></div>
+                </div>
+                <div class="col-6 col-sm-4 text-center">
+                    <div class="p-2 rounded bg-danger text-white fw-bold" id="soal-salah"></div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="co d-flex justify-content-center">
+                    <button class="btn px-5 py-2 rounded bg-primary text-white fw-bold" id="ulang">Ulangi</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container vw-100 vh-100 d-flex justify-content-center align-items-center" id="container-start">
+            <div class="row text-center">
+                <div class="col">
+                    <h1 id="mapel">Mata Pelajaran : Umum</h1>
+                    <h3 id="jumlah-soal"></h3>
+                    <button class="btn btn-primary fw-bold mt-5" id="mulai">Mulai</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tombol Prev dan Next -->
+        <footer class="py-4 mt-4 d-none">
+            <div class="container">
+                <div class="row justify-content-evenly">
+                    <button class="btn btn-primary col-sm-3 col-8 mb-3 disabled" id="prev">Sebelumnya</button>
+                    <button class="btn btn-outline-warning col-sm-3 col-8 mb-3 fw-bold"
+                        id="ragu-ragu">Ragu-Ragu</button>
+                    <button class="btn btn-primary col-sm-3 col-8 mb-3 d-none" id="next">Selanjutnya</button>
+                    <button class="btn btn-success col-sm-3 col-8 mb-3" id="yakin" data-bs-toggle="modal"
+                        data-bs-target="#testDone">Akhiri Tes</button>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal 1 - Modal Navigasi Soal -->
+        <div class="modal fade" id="navSoal" tabindex="-1" aria-labelledby="navSoalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="navSoalLabel">Daftar Soal</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="btn-group w-100 justify-content-center" role="group"
+                            aria-label="Basic outlined example">
+                            <div class="row justify-content-center w-100" id="navigasi-soal">
+                                <button type="button" class="btn btn-outline-primary col-3 col-sm-2">1</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2 - Modal Tes Selesai -->
+        <div class="modal fade" id="testDone" tabindex="-1" aria-labelledby="testDoneLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="testDoneLabel">Yakin sudah selesai ?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-warning text-center" role="alert">
+                            <b>Kamu masih memiliki sisa waktu.</b>
+                        </div>
+                        <div class="alert alert-danger text-center" role="alert">
+                            <b>Kamu masih memiliki jawaban ragu atau ada soal yang belum dijawab.</b>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="done">Yakin</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

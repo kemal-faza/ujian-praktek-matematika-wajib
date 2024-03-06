@@ -1,0 +1,60 @@
+{
+    "acak": true,
+    "soal": [
+        {
+            "soal": "JWST adalah singkatan dari...",
+            "pilihan": [
+                "James Webb Space Telescope",
+                "Jahe Wedang Susu Telur",
+                "JaWa SelaTan",
+                "James Webb Station Telescope",
+                "John Web Space Telescope"
+            ],
+            "jawaban": 0
+        },
+        {
+            "soal": "Kasino Grand Lisboa terletak di...",
+            "pilihan": [
+                "Hongkong",
+                "Makau",
+                "Las Vegas",
+                "Moskow",
+                "Singapura"
+            ],
+            "jawaban": 1
+        },
+        {
+            "soal": "Bandara Changi terletak di...",
+            "pilihan": [
+                "Filipina",
+                "Vietnam",
+                "Singapura",
+                "Hongkong",
+                "Jepang"
+            ],
+            "jawaban": 2
+        },
+        {
+            "soal": "Filipina beribukota di...",
+            "pilihan": [
+                "Kuala Lumpur",
+                "Jakarta",
+                "Singapura",
+                "Manila",
+                "Beijing"
+            ],
+            "jawaban": 3
+        },
+        {
+            "soal": "Amerika Serikat beribukota di...",
+            "pilihan": [
+                "Monako",
+                "Brazil",
+                "Chicago",
+                "New York",
+                "Washington D.C."
+            ],
+            "jawaban": 4
+        }
+    ]
+}
