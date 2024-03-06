@@ -2,59 +2,92 @@
     "acak": true,
     "soal": [
         {
-            "soal": "JWST adalah singkatan dari...",
+            "soal": "Dari angka 1, 3, 5, 6, 8, dan 9 akan disusun menjadi bilangan ratusan dengan angka berbeda. banyak bilangan lebih besar dari 500 yang dapat dibuat adalah...",
             "pilihan": [
-                "James Webb Space Telescope",
-                "Jahe Wedang Susu Telur",
-                "JaWa SelaTan",
-                "James Webb Station Telescope",
-                "John Web Space Telescope"
-            ],
-            "jawaban": 0
-        },
-        {
-            "soal": "Kasino Grand Lisboa terletak di...",
-            "pilihan": [
-                "Hongkong",
-                "Makau",
-                "Las Vegas",
-                "Moskow",
-                "Singapura"
+                "120",
+                "80",
+                "64",
+                "60",
+                "40"
             ],
             "jawaban": 1
         },
         {
-            "soal": "Bandara Changi terletak di...",
+            "soal": "Afif memiliki 2 pensil, 3 bopoint hitam dan 4 bolpoint biru. Afif ingin mengerjakan tugas di bukunya. Banyak pilihan alat tulis yang dapat digunakan Afif adalah...",
             "pilihan": [
-                "Filipina",
-                "Vietnam",
-                "Singapura",
-                "Hongkong",
-                "Jepang"
-            ],
-            "jawaban": 2
-        },
-        {
-            "soal": "Filipina beribukota di...",
-            "pilihan": [
-                "Kuala Lumpur",
-                "Jakarta",
-                "Singapura",
-                "Manila",
-                "Beijing"
+                "2",
+                "4",
+                "6",
+                "9",
+                "24"
             ],
             "jawaban": 3
         },
         {
-            "soal": "Amerika Serikat beribukota di...",
+            "soal": "Afif pergi kesebuah rumah makan. Rumah makan tersebut menyediakan menu makanan bakso, mie ayam, siomay dan batagor. Disamping itu rumah makan tersebut menyediakan pilihan minuman yaitu es teh, es jeruk, teh hangat dan jeruk hangat. Banyak variasi makanan dan minuman yang bisa di pilih Afif adalah...",
             "pilihan": [
-                "Monako",
-                "Brazil",
-                "Chicago",
-                "New York",
-                "Washington D.C."
+                "10",
+                "12",
+                "16",
+                "20",
+                "30"
+            ],
+            "jawaban": 2
+        },
+        {
+            "soal": "Sebuah keluarga terdiri dari Ayah, Ibu dan 3 orang anak akan melakukan foto bersama.  Mereka akan duduk pada kursi yang disusun berjejer. Banyak variasi foto yang dihasilkan jika Ayah dan Ibu selalu duduk berdampingan adalah...",
+            "pilihan": [
+                "10",
+                "12",
+                "16",
+                "24",
+                "36"
+            ],
+            "jawaban": 3
+        },
+        {
+            "soal": "Pada sebuah lomba menghasilkan 7 orang finalis. Dari finalis tersebut akan dipilih 3 orang yang akan menempati posisi juara 1, 2 dan 3. Banyak susunan juara mungkin terjadi adalah...",
+            "pilihan": [
+                "12",
+                "24",
+                "36",
+                "120",
+                "210"
             ],
             "jawaban": 4
+        },
+        {
+            "soal": "Banyak susunan huruf berbeda yang dapat dibentuk dari huruf-huruf pada kata JUARA adalah...",
+            "pilihan": [
+                "12",
+                "24",
+                "36",
+                "60",
+                "120"
+            ],
+            "jawaban": 3
+        },
+        {
+            "soal": "Banyak susunan duduk berbeda yang terjadi jika 7 orang duduk mengelilingi meja makan adalah...",
+            "pilihan": [
+                "120",
+                "240",
+                "360",
+                "720",
+                "840"
+            ],
+            "jawaban": 3
+        },
+        {
+            "soal": "Pada suatu ujian, guru matematika memberika 10 soal. Namun siswa hanya diminta menjawab 5 soal saja dengan syarat soal no 1 dan 2 wajib di jawab. Banyak pilihan soal yang mungkin dikerjakan siswa adalah...",
+            "pilihan": [
+                "12",
+                "24",
+                "36",
+                "56",
+                "72"
+            ],
+            "jawaban": 3
         }
     ]
 }
